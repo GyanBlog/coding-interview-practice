@@ -1,22 +1,17 @@
 package com.gyanblog.cormen.sort;
 
-import com.gyanblog.common.parents.ProblemParent;
 import com.gyanblog.utils.ArrayUtils;
 import com.gyanblog.utils.MiscUtils;
 import com.gyanblog.utils.RandomUtils;
 
-public class SelectionSort extends ProblemParent {
-	private int[] arr;
-	public SelectionSort(int[] arr) {
-		this.arr = arr;
-	}
-	@Override
-	public void execute() {
-		int l = this.arr.length;
+public class SelectionSort {
+	
+	public static void sort(int[] arr) {
+		int l = arr.length;
 		for (int i=0; i<l-1; i++) {
 			int smallestNumIndex = i;
 			for (int j=i+1; j<l; j++) {
-				if (this.arr[smallestNumIndex] > arr[j]) {
+				if (arr[smallestNumIndex] > arr[j]) {
 					smallestNumIndex = j;
 				}
 			}
@@ -33,9 +28,8 @@ public class SelectionSort extends ProblemParent {
 			arr[i] = RandomUtils.getRandomInt(50);
 		}
 		
-		System.out.println("Initial arrya: " + ArrayUtils.toString(arr));
-		SelectionSort ss = new SelectionSort(arr);
-		ss.doExecute();
-		System.out.println("Ater sort: " + ArrayUtils.toString(arr));
+		System.out.println("Initial array: " + ArrayUtils.toString(arr));
+		SelectionSort.sort(arr);
+		System.out.println("After sort: " + ArrayUtils.toString(arr));
 	}
 }
