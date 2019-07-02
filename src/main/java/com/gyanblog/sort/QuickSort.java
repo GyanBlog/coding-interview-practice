@@ -1,4 +1,4 @@
-package com.gyanblog.cormen.sort;
+package com.gyanblog.sort;
 
 import com.gyanblog.utils.ArrayUtils;
 import com.gyanblog.utils.RandomUtils;

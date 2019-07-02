@@ -1,23 +1,24 @@
-package com.gyanblog.cormen.sort;
+package com.gyanblog.sort;
 
 import com.gyanblog.utils.ArrayUtils;
-import com.gyanblog.utils.MiscUtils;
 import com.gyanblog.utils.RandomUtils;
 
-public class SelectionSort {
-	
+/**
+ * For detailed analysis:
+ * https://www.gyanblog.com/gyan/coding-interview-bubble-sort/
+ */
+public class BubbleSort {
+
 	public static void sort(int[] arr) {
 		int l = arr.length;
 		for (int i=0; i<l-1; i++) {
-			int smallestNumIndex = i;
-			for (int j=i+1; j<l; j++) {
-				if (arr[smallestNumIndex] > arr[j]) {
-					smallestNumIndex = j;
+			for (int j=0; j<(l-i-1); j++) {
+				if (arr[j] > arr[j+1]) {
+					//swap
+					int t = arr[j];
+					arr[j] = arr[j+1];
+					arr[j+1] = t;
 				}
-			}
-			if (i != smallestNumIndex) {
-				//swap
-				MiscUtils.swapInt(arr, i, smallestNumIndex);
 			}
 		}
 	}
@@ -29,7 +30,7 @@ public class SelectionSort {
 		}
 		
 		System.out.println("Initial array: " + ArrayUtils.toString(arr));
-		SelectionSort.sort(arr);
+		BubbleSort.sort(arr);
 		System.out.println("After sort: " + ArrayUtils.toString(arr));
 	}
 }

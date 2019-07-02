@@ -1,4 +1,4 @@
-package com.gyanblog.cormen.sort;
+package com.gyanblog.sort;
 
 public class MaxSubarray {
 

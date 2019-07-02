@@ -1,8 +1,12 @@
-package com.gyanblog.cormen.sort;
+package com.gyanblog.sort;
 
 import com.gyanblog.utils.ArrayUtils;
 import com.gyanblog.utils.RandomUtils;
 
+/**
+ * For detailed analysis:
+ * https://www.gyanblog.com/gyan/coding-interview-insertion-sort/
+ */
 public class InsertSort {
 	
 	public static void sort(int[] arr) {
