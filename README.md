@@ -2,7 +2,7 @@
 For practicing and preparing for coding interviews
 
 # All Problem Indexes
-https://www.gyanblog.com/gyan/coding-interview/list-sorting-algorithms/
+https://www.gyanblog.com/gyan/coding-interview/index-for-coding-problems/
 
 # Topic Breakups
 
