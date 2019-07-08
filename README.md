@@ -25,3 +25,6 @@ https://www.gyanblog.com/gyan/coding-interview/index-for-coding-problems/
 ## Coding Problems (Medium)
 - [Maximum Sub-array Problem](https://www.gyanblog.com/gyan/coding-interview/maximum-subarray-problem/)
 - [Counting Inversions Problem](https://www.gyanblog.com/gyan/coding-interview/counting-inversions-problem/)
+
+## LeetCode Solutions
+- [Problem-1, Two Sum](https://www.gyanblog.com/gyan/coding-interview/leetcode-solutions-two-sum/)

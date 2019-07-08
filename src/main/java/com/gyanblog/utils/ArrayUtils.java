@@ -3,6 +3,9 @@ package com.gyanblog.utils;
 public class ArrayUtils {
 
 	public static String toString(Object[] arr) {
+		if (arr == null) {
+			return null;
+		}
 		StringBuilder sb = new StringBuilder();
 		for (int i=0; i<arr.length; i++) {
 			sb.append(arr[i]).append(",");
@@ -11,6 +14,9 @@ public class ArrayUtils {
 	}
 	
 	public static String toString(int[] arr) {
+		if (arr == null) {
+			return null;
+		}
 		StringBuilder sb = new StringBuilder();
 		for (int i=0; i<arr.length; i++) {
 			sb.append(arr[i]).append(",");
