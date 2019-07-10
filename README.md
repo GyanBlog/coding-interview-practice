@@ -18,9 +18,13 @@ https://www.gyanblog.com/gyan/coding-interview/index-for-coding-problems/
 - [Tips coding interview](https://www.gyanblog.com/gyan/coding-interview/tips-for-coding-interview/)
 
 ## Fundamentals and Misc
-- [Heap Data Structure](https://www.gyanblog.com/gyan/coding-interview/what-is-heap-data-structure/)
 - [Algorithm Useful Terms](https://www.gyanblog.com/gyan/coding-interview/coding-interview-algorithms-useful-terms-cheatsheet/)
 - [Interview Cheatsheet](https://www.gyanblog.com/gyan/coding-interview/coding-interview-cheatsheet/)
+
+## Data Structure
+- [Heap Data Structure](https://www.gyanblog.com/gyan/coding-interview/what-is-heap-data-structure/)
+- [Max Priority Queue](https://www.gyanblog.com/gyan/coding-interview/max-priority-queue-with-heap/)
+- [Min Priority Queue](https://www.gyanblog.com/gyan/coding-interview/min-priority-queue-with-heap/)
 
 ## Coding Problems (Medium)
 - [Maximum Sub-array Problem](https://www.gyanblog.com/gyan/coding-interview/maximum-subarray-problem/)

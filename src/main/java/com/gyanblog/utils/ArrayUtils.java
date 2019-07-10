@@ -23,6 +23,21 @@ public class ArrayUtils {
 		}
 		return sb.toString();
 	}
+
+	public static String toString(int[] arr, int len) {
+		if (arr == null) {
+			return null;
+		}
+		if (len > arr.length) {
+			len = arr.length;
+		}
+
+		StringBuilder sb = new StringBuilder();
+		for (int i=0; i<len; i++) {
+			sb.append(arr[i]).append(",");
+		}
+		return sb.toString();
+	}
 	
 	public static void swap(int[] arr, int i, int j) {
 		int t = arr[i];
