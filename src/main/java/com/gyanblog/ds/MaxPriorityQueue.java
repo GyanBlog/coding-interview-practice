@@ -3,6 +3,8 @@ package com.gyanblog.ds;
 import com.gyanblog.utils.ArrayUtils;
 
 /**
+ * Max Priority Queue
+ * 
  * For explanation: https://www.gyanblog.com/gyan/coding-interview/max-priority-queue-with-heap/
  */
 public class MaxPriorityQueue {

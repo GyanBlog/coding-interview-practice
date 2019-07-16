@@ -13,6 +13,7 @@ https://www.gyanblog.com/gyan/coding-interview/index-for-coding-problems/
 - [Bubble Sort](https://www.gyanblog.com/gyan/coding-interview/bubble-sort-algorithm/)
 - [Selection Sort](https://www.gyanblog.com/gyan/coding-interview/selection-sort-algorithm/)
 - [Insertion Sort](https://www.gyanblog.com/gyan/coding-interview/insertion-sort-algorithm/)
+- [Count Sort](https://www.gyanblog.com/gyan/coding-interview/counting-sort-algorithm-in-java/)
 
 ## Tips to prepare interview
 - [Tips coding interview](https://www.gyanblog.com/gyan/coding-interview/tips-for-coding-interview/)
@@ -29,6 +30,7 @@ https://www.gyanblog.com/gyan/coding-interview/index-for-coding-problems/
 ## Coding Problems (Medium)
 - [Maximum Sub-array Problem](https://www.gyanblog.com/gyan/coding-interview/maximum-subarray-problem/)
 - [Counting Inversions Problem](https://www.gyanblog.com/gyan/coding-interview/counting-inversions-problem/)
+- [Young Tableau problem](https://www.gyanblog.com/gyan/coding-interview/young-tableau-implementation/)
 
 ## LeetCode Solutions
 - [Problem-1, Two Sum](https://www.gyanblog.com/gyan/coding-interview/leetcode-solutions-two-sum/)

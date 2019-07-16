@@ -44,4 +44,30 @@ public class ArrayUtils {
 		arr[i] = arr[j];
 		arr[j] = t;
 	}
+
+	/**
+	 * Get index of max element from array
+	 */
+	public static int getMaxIndex(int[] arr) {
+		int maxIndex = 0;
+		for (int i=1; i<arr.length; i++) {
+			if (arr[i] > arr[maxIndex]) {
+				maxIndex = i;
+			}
+		}
+		return maxIndex;
+	}
+
+	/**
+	 * Get max value from array
+	 */
+	public static int getMaxValue(int[] arr) {
+		int maxValue = 0;
+		for (int i=1; i<arr.length; i++) {
+			if (arr[i] > maxValue) {
+				maxValue = arr[i];
+			}
+		}
+		return maxValue;
+	}
 }
