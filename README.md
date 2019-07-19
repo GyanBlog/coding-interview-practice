@@ -29,9 +29,9 @@ https://www.gyanblog.com/gyan/coding-interview/index-for-coding-problems/
 - Min Priority Queue [Code](/src/main/java/com/gyanblog/ds/MinPriorityQueue.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/min-priority-queue-with-heap/)
 
 ## Coding Problems (Medium)
-- Maximum Sub-array Problem [Code](/src/main/java/gyanblog/sort/MaxSubarray.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/maximum-subarray-problem/)
-- Counting Inversions Problem [Code](/src/main/java/gyanblog/sort/Inversions.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/counting-inversions-problem/)
-- Young Tableau problem [Code](/src/main/java/gyanblog/ds/YoungTableau.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/young-tableau-implementation/)
+- Maximum Sub-array Problem [Code](/src/main/java/com/gyanblog/sort/MaxSubarray.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/maximum-subarray-problem/)
+- Counting Inversions Problem [Code](/src/main/java/com/gyanblog/sort/Inversions.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/counting-inversions-problem/)
+- Young Tableau problem [Code](/src/main/java/com/gyanblog/ds/YoungTableau.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/young-tableau-implementation/)
 
 ## LeetCode Solutions
-- Problem-1, Two Sum [Code](/src/main/java/gyanblog/leetcode/problem_1_two_sum/TwoSum.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/leetcode-solutions-two-sum/)
+- Problem-1, Two Sum [Code](/src/main/java/com/gyanblog/leetcode/problem_1_two_sum/TwoSum.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/leetcode-solutions-two-sum/)
