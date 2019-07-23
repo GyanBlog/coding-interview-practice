@@ -35,3 +35,4 @@ https://www.gyanblog.com/gyan/coding-interview/index-for-coding-problems/
 
 ## LeetCode Solutions
 - Problem-1, Two Sum [Code](/src/main/java/com/gyanblog/leetcode/problem_1_two_sum/TwoSum.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/leetcode-solutions-two-sum/)
+- Problem-2, Sum of two numbers as link list [Code](/src/main/java/com/gyanblog/leetcode/AddTwoNumbersLinkList.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/leetcode-solutions-add-two-numbers-link-list/)
