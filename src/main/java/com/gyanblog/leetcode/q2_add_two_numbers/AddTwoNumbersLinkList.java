@@ -1,4 +1,4 @@
-package com.gyanblog.leetcode;
+package com.gyanblog.leetcode.q2_add_two_numbers;
 
 /**
  * A node of link list

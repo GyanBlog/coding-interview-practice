@@ -1,4 +1,4 @@
-package com.gyanblog.leetcode.problem_1_two_sum;
+package com.gyanblog.leetcode.q1_two_sum;
 
 import java.util.HashMap;
 import java.util.Map;

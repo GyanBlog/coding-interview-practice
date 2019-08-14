@@ -38,7 +38,7 @@ public class MergeSort {
 	/**
 	 * Alternate merge method
 	 */
-	private static void merge2(int[] a, int l, int m, int r) {
+	public static void merge2(int[] a, int l, int m, int r) {
 		int l1 = m-l+1;
 		int l2 = r-m;
 		int[] left = new int[l1];
