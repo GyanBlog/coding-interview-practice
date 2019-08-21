@@ -36,3 +36,4 @@ https://www.gyanblog.com/gyan/coding-interview/index-for-coding-problems/
 ## LeetCode Solutions
 - Problem-1, Two Sum [Code](/src/main/java/com/gyanblog/leetcode/q1_two_sum/TwoSum.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/leetcode-solutions-two-sum/)
 - Problem-2, Sum of two numbers as link list [Code](/src/main/java/com/gyanblog/leetcode/q2_add_two_numbers/AddTwoNumbersLinkList.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/leetcode-solutions-add-two-numbers-link-list/)
+- Problem-3, Find the length of the longest substring without repeating characters [Code](/src/main/java/com/gyanblog/leetcode/q3_longest_substring_without_repeating), [Explanation](https://www.gyanblog.com/gyan/coding-interview/leetcode-solution-longest-substring-without-repeating/)
