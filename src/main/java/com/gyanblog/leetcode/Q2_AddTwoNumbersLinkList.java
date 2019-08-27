@@ -1,4 +1,4 @@
-package com.gyanblog.leetcode.q2_add_two_numbers;
+package com.gyanblog.leetcode;
 
 /**
  * A node of link list
@@ -13,7 +13,7 @@ class ListNode {
  * Leet code Problem-2 Add Two Numbers gien as link list in reverse order
  * For explanation: https://www.gyanblog.com/gyan/coding-interview/leetcode-solutions-add-two-numbers-link-list/
  */
-public class AddTwoNumbersLinkList {
+public class Q2_AddTwoNumbersLinkList {
 
     private static ListNode addTwoNumbersHelper(ListNode l1, ListNode l2, int carry) { 
         if (l1 == null && l2 == null && carry == 0) {

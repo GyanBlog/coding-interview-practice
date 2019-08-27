@@ -1,4 +1,4 @@
-package com.gyanblog.leetcode.q1_two_sum;
+package com.gyanblog.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +9,7 @@ import com.gyanblog.utils.RandomUtils;
 /**
  * For detailed explanation, see: https://www.gyanblog.com/gyan/coding-interview/leetcode-solutions-two-sum/
  */
-public class TwoSum {
+public class Q1_TwoSum {
 
     /**
      * Runs in O(n^2)
@@ -51,7 +51,7 @@ public class TwoSum {
         int[] nums = RandomUtils.getRamdomArray(10, 20);
         System.out.println(ArrayUtils.toString(nums));
 
-        TwoSum twoSum = new TwoSum();
+        Q1_TwoSum twoSum = new Q1_TwoSum();
         System.out.println("Finding 20");
         int[] indices = twoSum.twoSum(nums, 20);
         System.out.println(ArrayUtils.toString(indices));

@@ -1,4 +1,4 @@
-package com.gyanblog.leetcode.q4_median_sorted_arrays;
+package com.gyanblog.leetcode;
 
 /**
  * There are two sorted arrays nums1 and nums2 of size m and n respectively.
@@ -6,11 +6,11 @@ package com.gyanblog.leetcode.q4_median_sorted_arrays;
 
    For detailed explanation: https://www.gyanblog.com/gyan/coding-interview/leetcode-find-median-two-sorted-arrays/
  */
-public class OptimizedSolution {
+public class Q4_MedianSortedArrays_OptimizedSolution {
     private int[] arr1;
     private int[] arr2;
 
-    public OptimizedSolution(int[] arr1, int[] arr2) {
+    public Q4_MedianSortedArrays_OptimizedSolution(int[] arr1, int[] arr2) {
         this.arr1 = arr1;
         this.arr2 = arr2;
     }
@@ -101,14 +101,14 @@ public class OptimizedSolution {
         int[] arr1 = {3, 8, 9, 15};
         int[] arr2 = {7, 11, 18, 19, 21, 25};
 
-        OptimizedSolution os = new OptimizedSolution(arr1, arr2);
+        Q4_MedianSortedArrays_OptimizedSolution os = new Q4_MedianSortedArrays_OptimizedSolution(arr1, arr2);
         System.out.println("\nMedian: " + os.getMedian());
 
         System.out.println("------------------------");
 
         arr1 = new int[]{1, 3, 5, 7, 9, 11, 13};
         arr2 = new int[]{2, 4};
-        os = new OptimizedSolution(arr1, arr2);
+        os = new Q4_MedianSortedArrays_OptimizedSolution(arr1, arr2);
         System.out.println("\nMedian: " + os.getMedian());
     }
 }

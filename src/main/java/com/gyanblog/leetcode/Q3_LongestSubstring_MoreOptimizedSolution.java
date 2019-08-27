@@ -1,4 +1,4 @@
-package com.gyanblog.leetcode.q3_longest_substring_without_repeating;
+package com.gyanblog.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,9 +21,9 @@ import java.util.Map;
 
     For explanation see: https://www.gyanblog.com/gyan/coding-interview/leetcode-solution-longest-substring-without-repeating/
  */
-public class MoreOptimizedSolution {
+public class Q3_LongestSubstring_MoreOptimizedSolution {
     private String str;
-    public MoreOptimizedSolution(String str) {
+    public Q3_LongestSubstring_MoreOptimizedSolution(String str) {
         this.str = str;
     }
 
@@ -49,7 +49,7 @@ public class MoreOptimizedSolution {
     }
 
     public static void main(String[] args) {
-        MoreOptimizedSolution ss = new MoreOptimizedSolution("pwwkew");
+        Q3_LongestSubstring_MoreOptimizedSolution ss = new Q3_LongestSubstring_MoreOptimizedSolution("pwwkew");
 
         String result = ss.getResult();
         System.out.println("Longest substring without repeating chars: " + result);

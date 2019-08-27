@@ -1,4 +1,4 @@
-package com.gyanblog.leetcode.q4_median_sorted_arrays;
+package com.gyanblog.leetcode;
 
 import com.gyanblog.utils.ArrayUtils;
 
@@ -8,11 +8,11 @@ import com.gyanblog.utils.ArrayUtils;
 
    For detailed explanation: https://www.gyanblog.com/gyan/coding-interview/leetcode-find-median-two-sorted-arrays/
  */
-public class SimpleSolution {
+public class Q4_MedianSortedArrays_SimpleSolution {
     private int[] arr1;
     private int[] arr2;
     
-    public SimpleSolution(int[] arr1, int[] arr2) {
+    public Q4_MedianSortedArrays_SimpleSolution(int[] arr1, int[] arr2) {
         this.arr1 = arr1;
         this.arr2 = arr2;
     }
@@ -68,7 +68,7 @@ public class SimpleSolution {
         int[] arr1 = {1, 3, 5, 6};
         int[] arr2 = {2, 4};
 
-        SimpleSolution ss = new SimpleSolution(arr1, arr2);
+        Q4_MedianSortedArrays_SimpleSolution ss = new Q4_MedianSortedArrays_SimpleSolution(arr1, arr2);
 
         System.out.println("Arr1: " + ArrayUtils.toString(arr1));
         System.out.println("Arr2: " + ArrayUtils.toString(arr2));
