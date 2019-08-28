@@ -42,5 +42,6 @@ https://www.gyanblog.com/gyan/coding-interview/index-for-coding-problems/
 - Problem-6, Zigzag Pattern for string [Code](/src/main/java/com/gyanblog/leetcode/Q6_ZigZagConversion.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/leetcode-zigzag-pattern/)
 - Problem-7, Reverse Signed Integer [Code](/src/main/java/com/gyanblog/leetcode/Q7_ReverseInteger.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/leetcode-reverse-integer/)
 - Problem-8, String to Integer [Code](/src/main/java/com/gyanblog/leetcode/Q8_StringToInteger.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/leetcode-string-integer-atoi/)
+- Problem-9, Check Palindrome [Code](/src/main/java/com/gyanblog/leetcode/Q9_Palindrome.java), [Explanation](https://www.gyanblog.com/gyan/coding-interview/check-palindrome/)
 
 
