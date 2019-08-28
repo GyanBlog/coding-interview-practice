@@ -60,14 +60,12 @@ public class Q8_StringToInteger {
 			else {
 				if (neg) return -s;
 				
-				System.out.println("debug 1");
 				return s;
 			}
 		}
 		
 		if (neg) return -s;
 		
-		System.out.println("debug 2");
 		return s;
 	}
 	
