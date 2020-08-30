@@ -70,4 +70,23 @@ public class ArrayUtils {
 		}
 		return maxValue;
 	}
+	
+	/**
+	 * Check if two arrays are equal
+	 * @param arr
+	 * @param expected
+	 * @param length
+	 * @return
+	 */
+	public static boolean compareArray(int[] arr, int[] expected, int length) {
+		if (arr.length < length || expected.length < length) {
+			return false;
+		}
+		for (int i=0; i<length; i++) {
+			if (arr[i] != expected[i]) {
+				return false;
+			}
+		}
+		return true;
+	}
 }

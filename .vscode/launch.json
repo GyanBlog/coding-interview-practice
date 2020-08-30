@@ -1,0 +1,130 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OptimizedSolution",
+            "request": "launch",
+            "mainClass": "com.gyanblog.leetcode.q4_median_sorted_arrays.OptimizedSolution",
+            "projectName": "coding-interview-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OptimizedSolution",
+            "request": "launch",
+            "mainClass": "com.gyanblog.leetcode.q5_longest_palindrome_substring.OptimizedSolution",
+            "projectName": "coding-interview-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OptimizedSolution",
+            "request": "launch",
+            "mainClass": "com.gyanblog.leetcode.q3_median_sorted_arrays.OptimizedSolution",
+            "projectName": "coding-interview-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SimpleSolution",
+            "request": "launch",
+            "mainClass": "com.gyanblog.leetcode.q3_median_sorted_arrays.SimpleSolution",
+            "projectName": "coding-interview-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MoreOptimizedSolution",
+            "request": "launch",
+            "mainClass": "com.gyanblog.leetcode.q3_longest_substring_without_repeating.MoreOptimizedSolution",
+            "projectName": "coding-interview-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OptimizedSolution",
+            "request": "launch",
+            "mainClass": "com.gyanblog.leetcode.q3_longest_substring_without_repeating.OptimizedSolution",
+            "projectName": "coding-interview-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SimpleSolution",
+            "request": "launch",
+            "mainClass": "com.gyanblog.leetcode.q3_longest_substring_without_repeating.SimpleSolution",
+            "projectName": "coding-interview-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TwoSum",
+            "request": "launch",
+            "mainClass": "com.gyanblog.leetcode.q1_two_sum.TwoSum",
+            "projectName": "test-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SimpleSolution",
+            "request": "launch",
+            "mainClass": "com.gyanblog.leetcode.q3_longest_substring_without_repeating.SimpleSolution",
+            "projectName": "test-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AddTwoNumbersLinkList",
+            "request": "launch",
+            "mainClass": "com.gyanblog.leetcode.AddTwoNumbersLinkList",
+            "projectName": "test-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RadixSort",
+            "request": "launch",
+            "mainClass": "com.gyanblog.sort.RadixSort",
+            "projectName": "test-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CountSort",
+            "request": "launch",
+            "mainClass": "com.gyanblog.sort.CountSort",
+            "projectName": "test-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - YoungTableau",
+            "request": "launch",
+            "mainClass": "com.gyanblog.ds.YoungTableau",
+            "projectName": "test-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinPriorityQueue",
+            "request": "launch",
+            "mainClass": "com.gyanblog.ds.MinPriorityQueue",
+            "projectName": "test-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxPriorityQueue",
+            "request": "launch",
+            "mainClass": "com.gyanblog.ds.MaxPriorityQueue",
+            "projectName": "test-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TwoSum",
+            "request": "launch",
+            "mainClass": "com.gyanblog.leetcode.problem_1_two_sum.TwoSum",
+            "projectName": "test-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum",
+            "projectName": "test-practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HeapSort",
+            "request": "launch",
+            "mainClass": "com.gyanblog.sort.HeapSort",
+            "projectName": "test-practice"
+        }
+    ]
+}
