@@ -5,16 +5,36 @@ public class Q48_RotateImage {
 	public void rotate(int[][] matrix) {
 		int n = matrix[0].length;
 		
-		for (int layer = 0; layer < n/2; layer++) {
+		for (int layer = 0; layer < n/2; layer ++) {
 			for (int i=layer; i<n-layer-1; i++) {
 				int temp = matrix[layer][i];
 				matrix[layer][i] = matrix[n-i-1][layer];
-				matrix[n-i-1][layer] = matrix[n-layer-1][n-1-i];
-				matrix[n-layer-1][n-1-i] = matrix[i][n-layer-1];
-				matrix[i][n-layer-1] = temp;
+				matrix[n-i-1][layer] = matrix[n-1-layer][n-i-1];
+				matrix[n-1-layer][n-i-1] = matrix[i][n-1-layer];
+				matrix[i][n-1-layer] = temp;
 			}
 		}
 	}
+	
+	
+	
+	
+	
+	
+	
+//	public void rotate(int[][] matrix) {
+//		int n = matrix[0].length;
+//		
+//		for (int layer = 0; layer < n/2; layer++) {
+//			for (int i=layer; i<n-layer-1; i++) {
+//				int temp = matrix[layer][i];
+//				matrix[layer][i] = matrix[n-i-1][layer];
+//				matrix[n-i-1][layer] = matrix[n-layer-1][n-1-i];
+//				matrix[n-layer-1][n-1-i] = matrix[i][n-layer-1];
+//				matrix[i][n-layer-1] = temp;
+//			}
+//		}
+//	}
 	
 	public static void main(String[] args) {
 		int[][] matrix = {
